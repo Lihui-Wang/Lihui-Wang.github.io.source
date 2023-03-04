@@ -1,0 +1,68 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home  # Title of the link.
+    url: '#about'  # Widget Page folder name.
+    weight: 10  # Position of the link in the navigation bar.
+
+
+  # - name: Landing
+  #   url: '/landing/'
+  #   weight: 10
+
+
+  # - name: Posts
+  #   # url: '#posts'
+  #   # url: '/post/getting-started/'
+  #   url: '/post/index/'
+  #   weight: 20
+
+  # - name: Projects
+  #   url: '#projects'
+  #   weight: 30
+  # - name: Talks
+  #   url: '#talks'
+  #   weight: 40
+  - name: Publications
+    # url: '#featured'
+    # url: '/publication'
+    url: '/publications'  # without serarch bar
+    weight: 50
+
+  - name: People
+    # url: '/authors'
+    url: '/people'
+    weight: 55
+
+  - name: Join Us
+    # url: '#contact'
+    url: '/join-us'
+    weight: 60
+
+  # - name: Tour
+  #   url: tour
+  #   weight: 10
+  # - name: News
+  #   url: post
+  #   weight: 20
+  # - name: People
+  #   url: people
+  #   weight: 30
+  # - name: Events
+  #   url: event
+  #   weight: 40
+  # - name: Publications
+  #   url: publication
+  #   weight: 50
+  # - name: Contact
+  #   url: contact
+  #   weight: 60
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
