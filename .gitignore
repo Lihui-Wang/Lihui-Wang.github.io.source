@@ -28,6 +28,8 @@ MANIFEST
 
 # local
 .history/
+.git/
+.github/
 .vscode/
 dev/
 
