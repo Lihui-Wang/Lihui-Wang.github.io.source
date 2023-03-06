@@ -21,7 +21,8 @@ content:
     # - Researcher Assistant
     # - Post Doctor
     - 博士后
-    - 博士生
+    # - 博士生
+    - 研究生
     # - Undergraduate Student
     - 研究助理
     # - Researchers

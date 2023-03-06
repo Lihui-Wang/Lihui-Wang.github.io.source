@@ -21,7 +21,8 @@ content:
     # - Researcher Assistant
     # - Post Doctor
     - Post-doc
-    - Ph.D Candidate
+    # - Ph.D Candidate
+    - Graduate Student
     # - Undergraduate Student
     - Research Assistant
     # - Researchers

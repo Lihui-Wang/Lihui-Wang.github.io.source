@@ -27,7 +27,10 @@ MANIFEST
 
 
 # local
-.history/
+.history1/
+.history2/
+.git/
+.github/
 .vscode/
 dev/
 

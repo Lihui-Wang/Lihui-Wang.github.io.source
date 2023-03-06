@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Zhenni Wang
-user_groups: ["Ph.D Candidate"]
+user_groups: ["Graduate Student"]
 # Is this the primary user of the site?
 superuser: false
 
