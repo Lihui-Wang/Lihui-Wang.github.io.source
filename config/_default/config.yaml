@@ -9,7 +9,8 @@ title: The Lab of Enactive Cognition  # Website name
 # title: Enactive Cognition  # Website name
 
 # baseURL: 'https://example.com/' # Website URL
-baseURL: 'https://jakkwj.github.io/' # Website URL
+# baseURL: 'https://jakkwj.github.io/' # Website URL
+baseURL: 'https://www.lihuilab.org/' # Website URL
 
 ############################
 ## LANGUAGE
