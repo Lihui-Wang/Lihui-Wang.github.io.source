@@ -22,7 +22,7 @@ content:
     # - Post Doctor
     - 博士后
     # - 博士生
-    - 研究生
+    - 研究生1
     # - Undergraduate Student
     - 研究助理
     # - Researchers

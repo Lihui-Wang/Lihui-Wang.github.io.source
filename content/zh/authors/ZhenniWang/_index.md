@@ -1,7 +1,7 @@
 ---
 # Display name
 title: 王珍妮
-user_groups: ["研究生"]
+user_groups: ["研究生1"]
 # Is this the primary user of the site?
 superuser: false
 
