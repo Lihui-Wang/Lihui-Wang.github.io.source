@@ -17,7 +17,7 @@ content:
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
     - Principle Investigator
-  # - Principal Investigators
+    # - Principal Investigators
     # - Researcher Assistant
     # - Post Doctor
     - Post-doc
@@ -32,6 +32,7 @@ content:
     - Alumni
 design:
   show_interests: false
-  show_role: truehttps://sludge.readthedocs.io/en/latest/
+  show_role: true
+  # https://sludge.readthedocs.io/en/latest/
   show_social: true
 ---

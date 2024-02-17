@@ -10,10 +10,10 @@ superuser: false
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Institute of Psychology and Behavioral Science
-  url: https://psy.sjtu.edu.cn
-- name: Shanghai Jiao Tong University
-  url: https://www.sjtu.edu.cn
+  - name: Institute of Psychology and Behavioral Science
+    url: https://psy.sjtu.edu.cn
+  - name: Shanghai Jiao Tong University
+    url: https://www.sjtu.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include ....
@@ -72,4 +72,5 @@ organizations:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+
 My current research focuses on the common structure of saccades and microsaccades in perception. I am particularly interested in the cognitive function of eye movements. From an embodied perspective, how do the eye movements shape the perception and how the eye movements are subjectively influenced? With a passion to ask why and how, I joined the lab for developing a systematic method to seek the answers. Beyond science, I am a dog fanatic and hope for a lab golden retriever mascot one day.
