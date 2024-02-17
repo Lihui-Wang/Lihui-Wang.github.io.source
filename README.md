@@ -1,7 +1,7 @@
 # Quick Start
 
 1. 安装`go`，`hugo`和`Academic`，具体见下
-2. 本地电脑打开测试服务器`hugo server`，然后进行内容更新
+2. 本地电脑打开测试服务器`hugo server`，然后进行内容更新，主要是在`content`文件夹中更新中英文内容
 3. 内容更新完成后，同步到``github.io.source``：``git add -A && git commit -m "update content" && git push -u origin main``
 4. 访问官网：[https://www.lihuilab.org]()，检查是否正确更新
 
