@@ -1,7 +1,9 @@
 # Quick Start
 
-1. ``Hugo -S``生成``public``文件夹
-2. 同步到``github.io.source``：``git add -A && git commit -m "trying action 3" && git push -u origin main``
+1. 安装`go`，`hugo`和`Academic`，具体见下
+2. 本地电脑打开测试服务器`hugo server`，然后进行内容更新，主要是在`content`文件夹中更新中英文内容
+3. 内容更新完成后，同步到``github.io.source``：``git add -A && git commit -m "update content" && git push -u origin main``
+4. 访问官网：[https://www.lihuilab.org]()，检查是否正确更新
 
 # Hugo
 
@@ -18,6 +20,9 @@
 ```
 # 安装 Go 依赖
 sudo snap install --classic go
+
+# 安装 Hugo
+https://gohugo.io/installation/
 
 # 下载 Academic 主题, 有 bug，主题、slider和地图无法正确显示
 # git clone https://github.com/wowchemy/starter-academic.git

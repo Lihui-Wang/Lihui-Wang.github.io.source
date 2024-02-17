@@ -1,8 +1,7 @@
 ---
 # widget: about
 widget: blank
-headless: true  # This file represents a page section.
-
+headless: true # This file represents a page section.
 
 # Order that this section appears on the page.
 weight: 60
@@ -21,7 +20,6 @@ title: Alumni
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: 2
-
-
 ---
-- Yiwen Zhu, Research Assistant.
+
+- Yiwen Zhu, Research Assistant 2021-2022 (Next position: Master Student at University of Hong Kong)
