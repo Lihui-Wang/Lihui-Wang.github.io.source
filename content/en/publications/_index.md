@@ -13,14 +13,14 @@ view: 4
 
 # 2023
 
-- Luo, X., Wang, L., Gu, J., Zhang, Q., Ma, H., & Zhou, X. (2023). The benefit of making voluntary choices generalizes across multiple effectors. Psychonomic Bulletin & Review.
-- Su, Z., Zhou, X., & Wang, L. (2023). Dissociated amplitude and phase effects of alpha oscillation in a nested structure of rhythm- and sequence-based temporal expectation. Cerebral Cortex, 33, 9741-9755.
-- Chang, W., Wang, L., Yang, R., Wang, X., Gao, Z., & Zhou, X. (2023). Representing linguistic communicative functions in the premotor cortex. Cerebral Cortex, 33(9), 5671-5689.
+- Luo, X., **Wang, L.**, Gu, J., Zhang, Q., Ma, H., & Zhou, X. (2023). The benefit of making voluntary choices generalizes across multiple effectors. Psychonomic Bulletin & Review.
+- Su, Z., Zhou, X., & **Wang, L.** (2023). Dissociated amplitude and phase effects of alpha oscillation in a nested structure of rhythm- and sequence-based temporal expectation. Cerebral Cortex, 33, 9741-9755.
+- Chang, W., **Wang, L.**, Yang, R., Wang, X., Gao, Z., & Zhou, X. (2023). Representing linguistic communicative functions in the premotor cortex. Cerebral Cortex, 33(9), 5671-5689.
 
 # 2022
 
-- Luo, X._, Wang, L._, & Zhou, X. (2022). Belief in control: voluntary choice enhances subsequent task performance under undefeated choice-outcome causation. Cognition, 225, 105108. (\*equal contribution)
-- Si, Y., Wang, L., & Zhao, M. (2022). Anti-saccade as a tool to evaluate neurocognitive impairment in alcohol use disorder. Frontiers in Psychiatry, 13: 823848.
+- Luo, X., **Wang, L.**, & Zhou, X. (2022). Belief in control: voluntary choice enhances subsequent task performance under undefeated choice-outcome causation. Cognition, 225, 105108. (\*equal contribution)
+- Si, Y., **Wang, L.**, & Zhao, M. (2022). Anti-saccade as a tool to evaluate neurocognitive impairment in alcohol use disorder. Frontiers in Psychiatry, 13: 823848.
 - Chang, W., **Wang, L.**, Yang, R., Wang, X., Gao, Z., & Zhou, X. (2022). Representing linguisitic communicative functions in the premotor cortex. Cerebral Cortex.
 - Luo, X.\*, **Wang, L.**\*, & Zhou, X. (2022). Belief in control: voluntary choice enhances subsequent task performance under undefeated choice-outcome causation. Cognition, 225, 105108. (\*equal contribution)
 - Si, Y., **Wang, L.**, & Zhao, M. (2022). Anti-saccade as a tool to evaluate neurocognitive impairment in alcohol use disorder. Frontiers in Psychiatry, 13: 823848.
