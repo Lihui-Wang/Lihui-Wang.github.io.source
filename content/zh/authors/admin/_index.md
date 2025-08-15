@@ -1,7 +1,7 @@
 ---
 # Display name
 title: 王立卉
-user_groups: ["实验室负责人"]
+user_groups: ["Principle Investigator"]
 # Is this the primary user of the site?
 superuser: true
 
@@ -10,8 +10,8 @@ superuser: true
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Institute of Psychology and Behavioral Science
-  url: https://psy.sjtu.edu.cn
+- name: School of Psychology
+  url: https://psychology.sjtu.edu.cn/
 - name: Shanghai Jiao Tong University
   url: https://www.sjtu.edu.cn
 
@@ -76,5 +76,8 @@ organizations:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-上海交通大学心理与行为科学研究院副研究员，上海交通大学医学院附属精神卫生中心双聘研究员，博士生导师，德意志基金联合会（DFG）Mercator Fellow，中国神经科学学会神经科学研究技术分会委员，《心理科学》编委。中国心理学会脑电专委会“瀚翔青年科学家”、上海脑科学与类脑研究中心首批“求索杰出青年”计划研究组长获得者。近年研究成果发表于Nature Communications, Cerebral Cortex, Cognition等期刊，并因理论创新入选Nature Communications Editors’ Highlights。
+Dr. Lihui Wang is a Principal Investigator and a Ph.D. mentor at the Institute of Psychology and Behavioral Science, Shanghai Jiao Tong University, and Shanghai Mental Health Center. She is currently a Mercator Fellow of the German Research Foundation (DFG), a committee member of the Research Technologies in Neuroscience of Chinese Neuroscience Society, and an editorial board member of Journal of Psychological Science. She was awarded "Hanix Youth Scientist" by Chinese Psychology Society, and “Qiusuo Outstanding Youth” by Shanghai Center for Brain Science and Brain-inspired Technology.
+
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
+
 

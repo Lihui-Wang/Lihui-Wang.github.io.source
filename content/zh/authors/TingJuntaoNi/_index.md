@@ -1,7 +1,8 @@
 ---
 # Display name
 title: 倪婷珺陶
-user_groups: ["研究助理"]
+user_groups: ["PhD Student"]
+weight: 2
 # Is this the primary user of the site?
 superuser: false
 
@@ -11,10 +12,11 @@ superuser: false
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Institute of Psychology and Behavioral Science
-  url: https://psy.sjtu.edu.cn
-- name: Shanghai Jiao Tong University
+- name: 心理学院
+  url: https://psychology.sjtu.edu.cn/
+- name: 上海交通大学
   url: https://www.sjtu.edu.cn
+
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include ....
@@ -73,4 +75,4 @@ organizations:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-天津大学应用心理硕士，华东政法大学管理学学士。目前在课题组担任科研助理。我的研究兴趣主要包括知觉和动作整合的神经机制、决策及计算建模等。
+我在天津大学获得应用心理学硕士学位。目前，我在上海交通大学攻读心理学博士，同时在上海创智学院学习人工智能专业。我的研究聚焦于认知神经科学与人工智能的交叉领域，特别关注心理学中的情绪与情感，并探索利用人工智能来理解和模拟认知过程。

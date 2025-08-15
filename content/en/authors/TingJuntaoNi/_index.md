@@ -1,7 +1,8 @@
 ---
 # Display name
-title: TingJuntao Ni
-user_groups: ["Research Assistant"]
+title: Tingjuntao Ni
+user_groups: ["PhD Student"]
+weight: 2
 # Is this the primary user of the site?
 superuser: false
 
@@ -11,10 +12,11 @@ superuser: false
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Institute of Psychology and Behavioral Science
-  url: https://psy.sjtu.edu.cn
+- name: School of Psychology
+  url: https://psychology.sjtu.edu.cn/
 - name: Shanghai Jiao Tong University
   url: https://www.sjtu.edu.cn
+
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include ....
@@ -73,4 +75,4 @@ organizations:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I obtained my master's degree in applied psychology from Tianjin University, and bachelor's degree in Management from East China University of Political Science and Law. I currently working as a research assistant in the lab. My research interests mainly focus on the neural mechanisms of perception-motion integration, decision-making, and computational modeling.
+I obtained my master's degree in applied psychology from Tianjin University. Currently, I am pursuing a PhD at Shanghai Jiao Tong University, majoring in Psychology, while simultaneously studying Artificial Intelligence at the Shanghai Innovation Institute. My research focuses on the intersection of cognitive neuroscience and AI, with particular interests in emotion and affect in psychology, as well as the use of AI to understand and simulate cognitive processes.

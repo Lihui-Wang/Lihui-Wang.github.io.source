@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Yining Xu
-user_groups: ["Graduate Student"]
+user_groups: ["Master’s Student"]
 # Is this the primary user of the site?
 superuser: false
 
@@ -10,8 +10,8 @@ superuser: false
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Institute of Psychology and Behavioral Science
-    url: https://psy.sjtu.edu.cn
+  - name: School of Psychology
+    url: https://psychology.sjtu.edu.cn/
   - name: Shanghai Jiao Tong University
     url: https://www.sjtu.edu.cn
 

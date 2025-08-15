@@ -1,7 +1,7 @@
 ---
 # Display name
-title: 刘梦
-user_groups: ["博士后"]
+title: Meng Liu
+user_groups: ["Post-doc"]
 # Is this the primary user of the site?
 superuser: false
 
@@ -74,12 +74,15 @@ organizations:
 highlight_name: true
 ---
 
-- 教育经历
-  - 2017/10 - 2021/09 格拉斯哥大学， 心理学博士学位
-  - 2013/09 - 2017/07 电子科技大学，生物医学工程学士学位
-- 专业技能
-  - 面部表情建模, 面孔认知, 情绪认知理论
-  - 计算机图形学，心理学物理学，脑磁图，信息论
-- 发表文献
+- Education
+	- Psychology & Cognitive Neuroscience
+  University of Glasgow, UK
+	2017/10 – 2021/09	Ph.D. in Computational social psychology and cognitive neuroscience
+	- Biomedical Engineering, University of Electronic Science and Technology of China, China
+	2013/09 – 2017/07	B.Sc. in Biomedical Engineering
+- Expertise
+  - Facial expression modelling, face perceptions, dimensional emotion theories
+  - Interdisciplinary approach, comprising computer graphics, psychophysics, brain imaging (MEG), mathematical modelling, and information theoretical framework
+- Publications
   - **Liu, M.**, Duan, Y., Ince, R.A.A., Chen, C., Garrod, O.G.B., Schyns, P.G., and Jack, R.E. (2021). Facial expressions elicit multiplexed perceptions of emotion categories and dimensions. Current Biology.
   - Zhan, J., **Liu M.**, Garrod, O.G.B., Daube, C., Ince R.A.A, Jack R.E., Schyns, P.G. (2021). Modelling Individual preferences reveals that face beauty is not universally perceived across cultures. Current Biology.

@@ -11,11 +11,29 @@ view: 4
 #   image: ""
 ---
 
+
+# 2025
+
+- Ni, T., Zhang, L., & **Wang, L.** (2025). Active action selection in reward-modulated visual perception. Visual Neuroscience, 42, e013.
+
+- **王立卉**，刘梦，王珍妮. (2025). 面孔加工中眼动数据分析方法的新进展. 心理科学，48(2), 268-279.
+
+
+# 2024
+
+- Wang, Z., Zhang, C., Guo, Q., Fan, Q., & **Wang, L.** (2024). Concurrent oculomotor hyperactivity and deficient anti-saccade performance in obsessive-compulsive disorder. Journal of Psychiatric Research, 180, 402-410.
+
+- Liu, M., Zhan, J., & **Wang, L.** (2024). Specified functions of the first two fixations in face recognition: Sampling the general-to-specific facial information. iScience, 27, 110686.
+
+- Wang, Z., Meghanathan, R. N., Pollmann, S., & **Wang, L.** (2024). Common structure between saccades and microsaccades in visual perception. Journal of Vision, 24(4), 20-20.
+
+
 # 2023
 
 - Luo, X., **Wang, L.**, Gu, J., Zhang, Q., Ma, H., & Zhou, X. (2023). The benefit of making voluntary choices generalizes across multiple effectors. Psychonomic Bulletin & Review.
 - Su, Z., Zhou, X., & **Wang, L.** (2023). Dissociated amplitude and phase effects of alpha oscillation in a nested structure of rhythm- and sequence-based temporal expectation. Cerebral Cortex, 33, 9741-9755.
 - Chang, W., **Wang, L.**, Yang, R., Wang, X., Gao, Z., & Zhou, X. (2023). Representing linguistic communicative functions in the premotor cortex. Cerebral Cortex, 33(9), 5671-5689.
+- **王立卉** (2023). 反应控制中运动系统抑制效应的全局性：证据、机制和争论. 心理科学进展，31(9), 1665-1675.
 
 # 2022
 

@@ -60,7 +60,7 @@ design:
 <!-- **The Lab of Enactive Cognition**  -->
 <!-- This lab is  -->
 <!-- led by principal investigator [Lihui Wang](/authors/admin/),  -->
-**行动生成认知课题组**隶属于[上海交通大学](https://www.sjtu.edu.cn)的[心理与行为科学研究院](https://psy.sjtu.edu.cn/)。研究员[王立卉](/zh/author/王立卉)是该课题组的负责人。
+**行动生成认知课题组**隶属于[上海交通大学](https://www.sjtu.edu.cn)的[心理学院](https://psychology.sjtu.edu.cn/)。研究员[王立卉](/zh/author/王立卉)是该课题组的负责人。
 
 
 

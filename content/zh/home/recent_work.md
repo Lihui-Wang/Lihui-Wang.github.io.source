@@ -1,43 +1,62 @@
 ---
-# Activate this widget? true/false
 active: true
-
 widget: blank
 headless: true
 weight: 91
-
-# ... Put Your Section Options Here (title etc.) ...
 title: 近期工作
-# subtitle: The main focus and what are we heading to
-
-# Enactive Cognition
+subtitle: '<a href="/publication/" class="see-all-publications" style="font-size:18px;line-height:1.4">查看所有已发表工作</a>'
 
 design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: 2
+  columns: 1
 ---
 
-<div align=center>  <!-- 可选的项：right，left，center -->
+<div class="rw-list">
 
-![recnet_work](/recent_work.png)
+  <article class="rw-item">
+    <a class="rw-thumb" href="https://www.sciencedirect.com/science/article/pii/S0022395624006332?via=ihub" target="_blank" rel="noopener">
+      <img src="/media/ConcurrentOculomotor.jpg" alt="AAAI 2025 paper">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">
+        <a href="https://www.sciencedirect.com/science/article/pii/S0022395624006332?via=ihub" target="_blank" rel="noopener">
+          Concurrent oculomotor hyperactivity and deficient anti-saccade performance in obsessive-compulsive disorder
+        </a>
+      </h3>
+      <div class="rw-authors">Zhenni Wang, Chen Zhang, Qihui Guo, Qing Fan*, Lihui Wang*</div>
+      <div class="rw-venue">Journal of Psychiatric Research (2024)</div>
+    </div>
+  </article>
+
+  <div class="rw-list">
+
+  <article class="rw-item">
+    <a class="rw-thumb" href="https://www.sciencedirect.com/science/article/pii/S2589004224019114" target="_blank" rel="noopener">
+      <img src="/media/SpecifiedFunctions.jpg" alt="AAAI 2025 paper">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">
+        <a href="https://www.sciencedirect.com/science/article/pii/S2589004224019114" target="_blank" rel="noopener">
+          Specified functions of the first two fixations in face recognition: Sampling the general-to-specific facial information
+        </a>
+      </h3>
+      <div class="rw-authors">Meng Liu, Jiayu Zhan, Lihui Wang*</div>
+      <div class="rw-venue">iScience (2024)</div>
+    </div>
+  </article>
+
+  <article class="rw-item">
+    <a class="rw-thumb" href="https://jov.arvojournals.org/article.aspx?articleid=2793606" target="_blank" rel="noopener">
+      <img src="/media/CommonStructure.jpg" alt="AAAI 2025 paper">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">
+        <a href="https://jov.arvojournals.org/article.aspx?articleid=2793606" target="_blank" rel="noopener">
+          Common structure between saccades and microsaccades in visual perception
+        </a>
+      </h3>
+      <div class="rw-authors">Zhenni Wang, Radha Nila Meghanathan, Stefan Pollmann, Lihui Wang*</div>
+      <div class="rw-venue">Journal of Vision (2024)</div>
+    </div>
+  </article>
 
 </div>
-
-<!-- 近期我们发表在神经科学重要期刊《Cerebral Cortex》上的工作过揭示了人类大脑运动前区在语言交流中的重要作用。
-**言语行为论**（*speech act theory，Austin, 1975; Searle, 1969; 1985*）将具有交际性质的语言使用视作具有特定交流功能（communicative function）的行动（action），借此说话者得以向听话者传达交流目标。Searle（1969; 1985）认为，语言交流功能类型包括断言类（如“回答”）、承诺类（如“许诺”）、指令类（如“要求”）等。依据交流语境的不同，相同的话语可起到不同的交流功能。举例而言，获知小王因工作繁忙而难以完成本周额外分配的数据分析任务，小李说：“这周我分析数据”，该话语起到“许诺”的功能；在另一个语境下，当小王为记录工作备忘录而询问小李本周工作内容时，小李说：“这周我分析数据”，该话语仅起到了“回答”的功能。
- 
-虽然语言学家和语言哲学家把语言交流视作行动，但大脑是否真的将语言交流表征为“行动”，目前尚不清楚。
-**本研究通过相关性研究（磁共振成像，fMRI实验）和因果性研究（脑损伤病人测试），考察人类大脑运动前区（the premotor cortex）对语言交流相关信息的表征。**
-在两项实验中，被试阅读、理解语言交流（会话）材料。根据语境的不同，这些材料中关键句的交流功能可分为“许诺”、“要求”或“回答”。在fMRI实验中，研究者利用基于机器学习和表征相似性的多变量模式分析，发现运动前区和左外侧裂周传统语言区（包括广泛参与语言加工的布洛卡区和颞叶皮层）的活动模式表征了与交流功能类型相关的说话者/听话者态度。更重要的是，运动前区所表征的信息多于左外侧裂周语言区。脑损伤病人实验的结果进一步显示，与健康被试相比，运动前区损伤病人对语言交流的理解受损，但其他脑区损伤的病人对语言交流的理解没有表现出明显差异。
-**这些结果支持了大脑将语言交流表征为“行动”的观点，为言语行为论提供了神经科学证据。**
-
-
-Article access：[https://doi.org/10.1093/cercor/bhac451]() -->
-
-我们生活在一个不断变化的世界，比如昼夜不断的更替，日月星辰不断划过天空等等。对外部世界变化的感知促进了个体对时间信息的感知。个体可利用外部环境中变化信息构成的时间框架预期目标刺激出现的时间点，促进个体对目标刺激的知觉加工和行为反应，以完成当前任务目标。例如，一个人可以通过发动机声音频率的变化确定一辆汽车是远离还是靠近自己，以及何时通过路口；羽毛球运动员可以通过羽毛球飞行的速度和轨迹确定最佳的击球时间等等。利用不断变化的外部刺激构成的时间框架预测物体在某一时刻的状态的过程称为时间预期。时间预期可以基于多种信息形成，如节奏信息和顺序信息。具有周期变化特性的节奏性信息在日常生活中较为常见，例如具有相对固定频率的踏步，语言和音乐节拍等等。重复出现的具有固定顺序的非节奏性序列同样可以形成时间预期。这两种时间框架信息均可调节促进知觉行为，但二者可能具备不同的认知神经基础。在实际生活中，这些不同的时间信息通常都是嵌套出现，而非单独出现。
-近期我们发表在神经科学重要期刊《Cerebral Cortex》上的工作揭示了不同时间预期嵌套结构下的多频率神经振荡机制。
-在这个最新研究中，我们设计出一个嵌套范式同时包含了节奏和顺序信息。结合行为学数据和漂移扩散模型（Drift Diffusion Model，DDM），结果显示，在这个嵌套的时间框架中，节奏性信息和顺序信息可以协同性地促进视觉知觉过程。二者可以协同性地促进视觉知觉过程中证据累积速度，降低知觉决策的阈限。同时，脑电结果显示，节奏性信息在大脑视觉皮层诱发了相同节奏的低频周期性神经振荡，即神经夹带。本研究进一步发现，在枕叶区域，被节奏性信息夹带的低频神经振荡相位信息与 alpha（8-12Hz）频段神经振荡波幅存在跨频段的耦合效应。alpha 波幅随被夹带频段神经活动的相位信息而变。并且进一步证据表明 alpha 振幅与相位以不同的形式参与到不同的时间预期，具体而言，alpha 振幅主要受节奏性信息影响，而并不会受到顺序信息影响；alpha 相位则同时受到节奏性信息和顺序信息的调节。结合行为学模型，研究进一步发现 alpha 相位距离最优相位的距离可以预测知觉行为的变化，并且在同时被节奏性信息和顺序信息预测的时间点，该预测效应最强。这些结果提示在同时具备多种信息的时间框架中，大脑能够灵活地调用多个神经振荡信息，促进知觉任务的完成。
-
-本研究是探究时间预期如何影响知觉过程中重要的一环，对于探明不同类型的时间预期影响知觉过程的神经机制以及利用节奏性信息改变个体神经振荡特性和认知功能方面均有所贡献。一方面，研究使用嵌套的时间框架探究了节奏性信息和顺序信息对知觉过程的协同促进作用；另一方面，研究阐述了节奏性信息对于大脑低频和高频（alpha）神经振荡的调节作用。相比于使用 TMS 或者 tACS 对大脑神经振荡效应的调节，节奏性的视觉或者声音刺激具有更小的风险和更高的接受度，在临床上具备一定的应用前景。
-
-论文链接：[https://doi.org/10.1093/cercor/bhad240]()

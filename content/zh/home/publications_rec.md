@@ -9,7 +9,7 @@ weight: 91
 
 
 # ... Put Your Section Options Here (title etc.) ...
-title: 近期成果
+title: Recent Publications
 # subtitle: The main focus and what are we heading to
 
 # Enactive Cognition

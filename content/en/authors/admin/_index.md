@@ -10,8 +10,8 @@ superuser: true
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Institute of Psychology and Behavioral Science
-  url: https://psy.sjtu.edu.cn
+- name: School of Psychology
+  url: https://psychology.sjtu.edu.cn/
 - name: Shanghai Jiao Tong University
   url: https://www.sjtu.edu.cn
 

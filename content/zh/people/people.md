@@ -16,22 +16,24 @@ content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
-    - 实验室负责人
-  # - Principal Investigators
+    - Principle Investigator
+    # - Principal Investigators
     # - Researcher Assistant
     # - Post Doctor
-    - 博士后
-    # - 博士生
-    - 研究生
+    # - Post-doc
+    # - Ph.D Candidate
+    - PhD Student
+    - Master’s Student
     # - Undergraduate Student
-    - 研究助理
+    # - Research Assistant
     # - Researchers
     # - Grad Students
     # - Administration
     # - Visitors
-    - 毕业生
+    - Alumni
 design:
   show_interests: false
   show_role: true
+  # https://sludge.readthedocs.io/en/latest/
   show_social: true
 ---

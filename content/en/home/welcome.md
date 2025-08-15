@@ -60,7 +60,7 @@ design:
 <!-- **The Lab of Enactive Cognition**  -->
 <!-- This lab is  -->
 <!-- led by principal investigator [Lihui Wang](/authors/admin/),  -->
-**The Lab of Enactive Cognition** is located in [Institute of Psychology and Behavioral Science](https://psy.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn). The lab is led by principal investigator [Lihui Wang](/author/lihui-wang/).
+**The Lab of Enactive Cognition** is located in [School of Psychology](https://psychology.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn). The lab is led by principal investigator [Lihui Wang](/author/lihui-wang/).
  <!-- and the main research interests include:
   - Enactive cognition
   - Interaction between perception and action -->

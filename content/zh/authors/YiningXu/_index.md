@@ -1,7 +1,7 @@
 ---
 # Display name
 title: 徐怡宁
-user_groups: ["研究生"]
+user_groups: ["Master’s Student"]
 # Is this the primary user of the site?
 superuser: false
 
@@ -10,10 +10,10 @@ superuser: false
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Institute of Psychology and Behavioral Science
-    url: https://psy.sjtu.edu.cn
-  - name: Shanghai Jiao Tong University
-    url: https://www.sjtu.edu.cn
+- name: 心理学院
+  url: https://psychology.sjtu.edu.cn/
+- name: 上海交通大学
+  url: https://www.sjtu.edu.cn
 
 highlight_name: true
 ---

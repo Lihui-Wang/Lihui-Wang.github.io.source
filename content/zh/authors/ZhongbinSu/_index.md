@@ -1,7 +1,7 @@
 ---
 # Display name
-title: 苏忠斌
-user_groups: ["博士后"]
+title: Zhongbin Su
+user_groups: ["Post-doc"]
 # Is this the primary user of the site?
 superuser: false
 
@@ -75,4 +75,4 @@ highlight_name: true
 ---
 
 
-2015年在华东师范大学获得生理学硕士学位，2020年在北京大学心理与认知科学学院获得基础心理学博士学位。2020年起至今在上海交通大学医学院，上海市精神卫生中心从事博士后研究。研究内容主要关注人类注意、知觉系统的认知神经基础，尤其关注注意控制能力的动态变化特性及大脑神经振荡信息对注意控制变化特性的调节作用。已有文章发表在Journal of Vision，Attention, Perception and Psychophysics等杂志.如果大家对我研究方向感兴趣，欢迎与我联系，相互讨论学习。空余时间喜欢打羽毛球，徒步，爬山,游泳等。
+I got my master degree of physiology from East China Normal University in 2015, and my doctor degree of psychology from School of Psychology and Cognitive Sciences, Peking University in 2020. From Sep. 2020, I did my postdoctoral research in Shanghai mental health center, Shanghai Jiao Tong University, School of Medicine. My researches concern the cognitive and neural mechanism of attention and perception, especially the dynamic nature of attentional control and how the dynamic natures are modulated by the neural oscillations. My researches have been published in Journal of Vision，Attention, Perception and Psychophysics et. Feel free to contact me if you are interested in my researches. In my spare time, I like playing badminton, hiking, climbing, swimming and so on.

@@ -1,7 +1,8 @@
 ---
 # Display name
 title: 王珍妮
-user_groups: ["研究生"]
+user_groups: ["PhD Student"]
+weight: 1
 # Is this the primary user of the site?
 superuser: false
 
@@ -10,9 +11,9 @@ superuser: false
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Institute of Psychology and Behavioral Science
-  url: https://psy.sjtu.edu.cn
-- name: Shanghai Jiao Tong University
+- name: 心理学院
+  url: https://psychology.sjtu.edu.cn/
+- name: 上海交通大学
   url: https://www.sjtu.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
@@ -72,4 +73,5 @@ organizations:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+
 研究兴趣集中于探究眼球运动的认知功能。在近期工作中，我们关注到眼跳和微眼跳在感知过程中结构存在一致性。基于具身认知的视角，我对眼动是如何塑造感知，以及眼动是如何受主观影响的过程十分感兴趣。我带着好奇加入了课题组，希望不仅能学习到系统的研究思路，还希望能完善自己的理论体系。除此之外，我还是个狗狗爱好者，希望有一天实验室能有只金毛作为吉祥物。

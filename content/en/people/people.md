@@ -20,11 +20,12 @@ content:
     # - Principal Investigators
     # - Researcher Assistant
     # - Post Doctor
-    - Post-doc
+    # - Post-doc
     # - Ph.D Candidate
-    - Graduate Student
+    - PhD Student
+    - Master’s Student
     # - Undergraduate Student
-    - Research Assistant
+    # - Research Assistant
     # - Researchers
     # - Grad Students
     # - Administration
