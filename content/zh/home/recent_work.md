@@ -4,7 +4,7 @@ widget: blank
 headless: true
 weight: 91
 title: 近期工作
-subtitle: '<a href="/publication/" class="see-all-publications" style="font-size:18px;line-height:1.4">查看所有已发表工作</a>'
+subtitle: '<a href="/publications/" class="see-all-publications" style="font-size:18px;line-height:1.4">查看所有已发表工作</a>'
 
 design:
   columns: 1

@@ -11,10 +11,18 @@ design:
 
   <!-- 新闻卡片 -->
   <div class="news-card">
-    <img src="/media/lab-cartoon.jpg" alt="实验室合照漫画版" class="news-img">
+    <img src="/media/lab-cartoon.jpg" alt="lab-cartoon" class="news-img">
     <div class="news-text">
       <h3>Our Lab’s Cartoon Group Photo Is Here!</h3>
       <p class="news-date">2025-08-15</p>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <img src="/media/zhenni_vss.jpg" alt="zhenni_vss" class="news-img">
+    <div class="news-text">
+      <h3>Zhenni Wang Presents Poster at VSS 2025</h3>
+      <p class="news-date">2025-05-18</p>
     </div>
   </div>
 

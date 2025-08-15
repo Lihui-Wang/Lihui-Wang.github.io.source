@@ -18,6 +18,14 @@ design:
     </div>
   </div>
 
+  <div class="news-card">
+    <img src="/media/zhenni_vss.jpg" alt="zhenni_vss" class="news-img">
+    <div class="news-text">
+      <h3>王珍妮在2025年VSS年会上进行海报展示</h3>
+      <p class="news-date">2025-05-18</p>
+    </div>
+  </div>
+
 </div>
 
 <style>

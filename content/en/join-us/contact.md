@@ -15,8 +15,7 @@ subtitle:
 content:
   # Contact (edit or remove options as required)
 
-  email: psy_office@sjtu.edu.cn
-  phone: +86 21 62932892
+
   address:
     street: 1954 Hua Shan RD
     city: Shanghai
@@ -28,8 +27,8 @@ content:
   #   latitude: '31.199014'
   #   longitude: '121.433126'
   directions:
-  office_hours:
-    - 'Monday to Friday: 08:30 to 17:30'
+  # office_hours:
+  #   - 'Monday to Friday: 08:30 to 17:30'
     # - 'Friday 08:00 to 17:30'
   # appointment_url: 'https://calendly.com'
   #contact_links:
@@ -54,7 +53,7 @@ design:
   columns: '2'
 ---
 
-We often have vacancies for postdoc, graduate students, and research assistants. Please contact us if you are interested.
+We often have vacancies for postdoc, graduate students, and research assistants. Please email [Dr Lihui Wang](https://psychology.sjtu.edu.cn/tsml/214.html) if your are interested, or visit the [School of Psychology](https://psychology.sjtu.edu.cn/) for more information.
 
 <!-- <center>
 

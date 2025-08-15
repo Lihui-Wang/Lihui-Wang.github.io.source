@@ -4,7 +4,7 @@ widget: blank
 headless: true
 weight: 91
 title: Recent Work
-subtitle: '<a href="/publication/" class="see-all-publications" style="font-size:18px;line-height:1.4">See all publications</a>'
+subtitle: '<a href="/publications/" class="see-all-publications" style="font-size:18px;line-height:1.4">See all publications</a>'
 
 design:
   columns: 1
