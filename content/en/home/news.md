@@ -19,7 +19,7 @@ design:
   </div>
 
   <div class="news-card">
-    <img src="/media/zhenni_vss.jpg" alt="zhenni_vss" class="news-img">
+    <img src="media/zhenni_vss.jpg" alt="zhenni_vss" class="news-img">
     <div class="news-text">
       <h3>Zhenni Wang Presents Poster at VSS 2025</h3>
       <p class="news-date">2025-05-18</p>
