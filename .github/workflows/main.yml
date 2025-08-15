@@ -1,9 +1,3 @@
-name: Deploy Hugo Site to Github Pages on Main Branch
-
-on:
-  push:
-    branches: [ main ]
-
 permissions:
   contents: write
 
@@ -11,8 +5,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: false
           fetch-depth: 0
@@ -28,8 +21,9 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages          # 或 main，看你 Pages 选哪个
+          personal_token: ${{ secrets.PAGES_TOKEN }}          # 用 PAT 推送
+          external_repository: Lihui-Wang/Lihui-Wang.github.io
+          publish_branch: main                                # 目标仓库的 Pages 分支
           publish_dir: ./public/
           keep_files: false
           commit_message: ${{ github.event.head_commit.message }}
