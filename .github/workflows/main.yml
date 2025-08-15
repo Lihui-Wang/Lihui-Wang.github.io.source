@@ -1,29 +1,41 @@
-permissions:
-  contents: write
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main            # ← 如果源码分支不是 main，这里改成你的分支
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      # 1) 检出源码（带子模块，Wowchemy/Academic 需要）
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: false
+          submodules: true
           fetch-depth: 0
 
+      # 2) 安装 Hugo（用你日志里的版本；Academic 需要 extended）
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.92.2'
+          hugo-version: '0.92.2'   # ← 如有不同，改成你的版本（hugo version 查看）
+          extended: true
 
+      # 3) 构建
       - name: Build
-        run: hugo --minify
+        run: |
+          hugo --minify            # ← 如果你的站点不在仓库根目录，先 cd 子目录再 hugo
 
-      - name: Deploy
+      # 4) 部署到发布仓库
+      - name: Deploy to Pages repo
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.PAGES_TOKEN }}           # ← 必须是 personal_token
-          external_repository: Lihui-Wang/Lihui-Wang.github.io # ← 目标仓库（注意大小写/斜杠）
-          publish_branch: main                                 # ← 目标仓库的分支
-          publish_dir: ./public/
-          keep_files: false
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}   # ← 源码仓库里已有的 Secret 名，不要改
+          external_repository: Lihui-Wang/Lihui-Wang.github.io  # ← 改成你的“发布仓库”的 owner/repo
+          publish_branch: main      # ← 发布仓库用的分支(通常 main 或 master)
+          publish_dir: ./public     # ← Hugo 默认输出目录；若改变过请同步修改
+          keep_files: true          # ← 保留 CNAME 等自定义文件
           commit_message: ${{ github.event.head_commit.message }}
