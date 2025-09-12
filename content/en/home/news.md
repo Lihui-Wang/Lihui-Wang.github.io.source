@@ -11,10 +11,28 @@ design:
 
   <!-- 新闻卡片 -->
   <div class="news-card">
+    <img src="/media/sii-festtech.jpg" alt="sii-festtech" class="news-img">
+    <div class="news-text">
+      <h3>Ni and Wang Present Poster at SII TechFest 2025</h3>
+      <p class="news-date">2025-09-12</p>
+    </div>
+  </div>
+  
+  
+  <div class="news-card">
+    <img src="/media/lab-retreat.jpg" alt="lab-retreat" class="news-img">
+    <div class="news-text">
+      <h3>Lab Retreat 2025 at Zhoushan, Zhejiang</h3>
+      <p class="news-date">2025-08-22</p>
+    </div>
+  </div>
+
+
+  <div class="news-card">
     <img src="/media/lab-cartoon.jpg" alt="lab-cartoon" class="news-img">
     <div class="news-text">
       <h3>Our Lab’s Cartoon Group Photo Is Here!</h3>
-      <p class="news-date">2025-08-15</p>
+      <p class="news-date">2025-06-26</p>
     </div>
   </div>
 
