@@ -13,7 +13,7 @@ design:
   <div class="news-card">
     <img src="/media/nacp_xuyining.jpg" alt="nacp_xuyining" class="news-img">
     <div class="news-text">
-      <h3>Yining Xu Present Poster at the 26th National Academic Conference of Psychology</h3>
+      <h3>Yining Xu Presents Poster at the 26th National Academic Conference of Psychology</h3>
       <p class="news-date">2025-11-01</p>
     </div>
   </div>
