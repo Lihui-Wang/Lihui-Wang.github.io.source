@@ -11,6 +11,14 @@ design:
 
   <!-- 新闻卡片 -->
   <div class="news-card">
+    <img src="/media/nacp_xuyining.jpg" alt="nacp_xuyining" class="news-img">
+    <div class="news-text">
+      <h3>徐怡宁在第二十六届全国心理学学术会议上进行海报展示</h3>
+      <p class="news-date">2025-09-12</p>
+    </div>
+  </div>
+  
+  <div class="news-card">
     <img src="/media/sii-festtech.jpg" alt="sii-festtech" class="news-img">
     <div class="news-text">
       <h3>倪婷珺陶和王珍妮在2025创智未来大会上进行海报展示</h3>
