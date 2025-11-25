@@ -12,6 +12,25 @@ design:
 
 <div class="rw-list">
 
+
+  <article class="rw-item">
+    <a class="rw-thumb" href="https://www.nature.com/articles/s42003-025-09039-y" target="_blank" rel="noopener">
+      <img src="/media/Dynamic_face-related.png" alt="AAAI 2025 paper">
+    </a>
+    <div class="rw-body">
+      <h3 class="rw-title">
+        <a href="https://www.nature.com/articles/s42003-025-09039-y" target="_blank" rel="noopener">
+          Dynamic face-related eye movement representations in the human ventral pathway
+        </a>
+      </h3>
+      <div class="rw-authors">Zhongbin Su, Xiaolin Zhou, Stefan Pollmann, Lihui Wang*</div>
+      <div class="rw-venue">Communications Biology (2025)</div>
+    </div>
+  </article>
+
+  <div class="rw-list">
+
+
   <article class="rw-item">
     <a class="rw-thumb" href="https://www.sciencedirect.com/science/article/pii/S0022395624006332?via=ihub" target="_blank" rel="noopener">
       <img src="/media/ConcurrentOculomotor.jpg" alt="AAAI 2025 paper">
@@ -44,7 +63,7 @@ design:
     </div>
   </article>
 
-  <article class="rw-item">
+  <!-- <article class="rw-item">
     <a class="rw-thumb" href="https://jov.arvojournals.org/article.aspx?articleid=2793606" target="_blank" rel="noopener">
       <img src="/media/CommonStructure.jpg" alt="AAAI 2025 paper">
     </a>
@@ -57,6 +76,6 @@ design:
       <div class="rw-authors">Zhenni Wang, Radha Nila Meghanathan, Stefan Pollmann, Lihui Wang*</div>
       <div class="rw-venue">Journal of Vision (2024)</div>
     </div>
-  </article>
+  </article> -->
 
 </div>
