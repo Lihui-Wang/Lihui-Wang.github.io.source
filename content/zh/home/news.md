@@ -11,9 +11,9 @@ design:
 
   <!-- 新闻卡片 -->
   <div class="news-card">
-      <img src="/media/sii_TopTen_singer_nitingjuntao.jpg" alt="sii_TopTen_singer_nitingjuntao" class="news-img">
+      <img src="/media/sii_TopTen_singer_nitingjuntao1.jpg" alt="sii_TopTen_singer_nitingjuntao" class="news-img">
       <div class="news-text">
-        <h3>倪婷珺陶获得上海创智学院十佳歌手奖 🏆</h3>
+        <h3>倪婷珺陶获得上海创智学院十佳歌手奖 🏆</h3> 
         <p class="news-date">2026-01-09</p>
       </div>
   </div>
