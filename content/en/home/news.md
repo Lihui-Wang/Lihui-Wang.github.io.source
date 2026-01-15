@@ -11,7 +11,7 @@ design:
 
   <!-- 新闻卡片 -->
   <div class="news-card">
-      <img src="/media/sii_TopTen_singer_nitingjuntao.jpg" alt="sii_TopTen_singer_nitingjuntao" class="news-img">
+      <img src="/media/sii_TopTen_singer_nitingjuntao1.jpg" alt="sii_TopTen_singer_nitingjuntao" class="news-img">
       <div class="news-text">
         <h3>Tingjuntao Ni Wins Top 10 Singer Award at SII 🏆</h3>
         <p class="news-date">2026-01-09</p>
