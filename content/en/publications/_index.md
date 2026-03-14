@@ -12,6 +12,9 @@ view: 4
 ---
 
 
+# 2026
+- Xu, Y., Lu, Y., & **Wang, L.** (2026). Drug cue enhances response conflict and reduces conflict adaptation in methamphetamine addiction. Psychological Research, 90, 57.
+
 # 2025
 - Su, Z., Zhou, X., Pollmann, S., & **Wang, L.** (2025). Dynamic face-related eye movement representations in the human ventral pathway. Communications Biology, 8, 1652
 
