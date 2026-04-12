@@ -24,7 +24,7 @@ content:
     # - Ph.D Candidate
     - PhD Student
     - Master’s Student
-    # - Undergraduate Student
+    - Undergraduate Student
     # - Research Assistant
     # - Researchers
     # - Grad Students
