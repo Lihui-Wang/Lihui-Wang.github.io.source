@@ -7,6 +7,39 @@ design:
   columns: "1"
 ---
 
+
+<div class="news-cards">
+
+  <!-- 新闻卡片 -->
+  
+
+  <div class="news-card">
+      <img src="/media/zhenni_xuyining_graduate1.jpg" alt="zhenni_xuyining_graduate1" class="news-img">
+      <div class="news-text">
+        <h3>Congratulations to Dr. Zhenni Wang and Yining Xu on their graduation. 🎉 </h3>
+        <p class="news-date">2026-05-15</p>
+      </div>
+  </div>
+
+  <div class="news-card">
+      <div class="news-carousel news-carousel-single"
+           data-images="/media/zhenniwang-OutstandingGraduate1.jpg|/media/zhenniwang-OutstandingGraduate2.jpg"
+           data-alts="zhenniwang-OutstandingGraduate1|zhenniwang-OutstandingGraduate2"
+           data-durations="5000|3500">
+        <img src="/media/zhenniwang-OutstandingGraduate1.jpg" alt="zhenniwang-OutstandingGraduate1" class="news-img">
+      </div>
+      <div class="news-text">
+        <h3>Congratulations to Zhenni Wang on being awarded Outstanding Graduate of Shanghai Jiao Tong University, Class of 2026. 🏆</h3>
+        <p class="news-date">2026-05-15</p>
+      </div>
+  </div>
+
+</div>
+
+
+
+<div class="section-divider"></div>
+
 <div class="news-card series-card">
   <div class="series-media">
   <!-- 主图轮播 -->
@@ -43,7 +76,7 @@ design:
   <!-- 新闻卡片 -->
   
   <div class="news-card">
-      <img src="/media/visit-xdream.jpg" alt="sii_TopTen_singer_nitingjuntao" class="news-img">
+      <img src="/media/visit-xdream.jpg" alt="visit-xdream" class="news-img">
       <div class="news-text">
         <h3>Industry Visit: Exploring Emotional Companion Robots at XDream Robotics</h3>
         <p class="news-date">2026-01-28</p>
@@ -51,7 +84,7 @@ design:
   </div>
   
   <!-- <div class="news-card">
-      <img src="/media/academic_visit-sheffield.jpg" alt="sii_TopTen_singer_nitingjuntao" class="news-img">
+      <img src="/media/academic_visit-sheffield.jpg" alt="academic_visit-sheffield" class="news-img">
       <div class="news-text">
         <h3>Academic Visit to Professor Hongkai Wen at University of Sheffield</h3>
         <p class="news-date">2026-01-20</p>
@@ -59,7 +92,7 @@ design:
   </div>
   
   <div class="news-card">
-      <img src="/media/academic_visit-warwick.jpg" alt="sii_TopTen_singer_nitingjuntao" class="news-img">
+      <img src="/media/academic_visit-warwick.jpg" alt="academic_visit-warwick" class="news-img">
       <div class="news-text">
         <h3>Academic Visit to Professor Hongkai Wen at University of Warwick</h3>
         <p class="news-date">2026-01-20</p>
@@ -67,7 +100,7 @@ design:
   </div>
 
   <div class="news-card">
-      <img src="/media/academic_visit-birminham.jpg" alt="sii_TopTen_singer_nitingjuntao" class="news-img">
+      <img src="/media/academic_visit-birminham.jpg" alt="academic_visit-birminham" class="news-img">
       <div class="news-text">
         <h3>Academic Visit to Professor Lei Zhang at University of Birminham</h3>
         <p class="news-date">2026-01-19</p>
@@ -110,7 +143,7 @@ design:
   <div class="news-card">
     <img src="/media/lab-retreat.jpg" alt="lab-retreat" class="news-img">
     <div class="news-text">
-      <h3>Lab Retreat 2025 at Zhoushan, Zhejiang</h3>
+      <h3>Lab Retreat 2025 at Zhoushan, Zhejiang 🏖️ </h3>
       <p class="news-date">2025-08-22</p>
     </div>
   </div>
@@ -127,7 +160,7 @@ design:
   <div class="news-card">
     <img src="media/zhenni_vss.jpg" alt="zhenni_vss" class="news-img">
     <div class="news-text">
-      <h3>Zhenni Wang Presents Poster at VSS 2025</h3>
+      <h3>Zhenni Wang Presents Poster at VSS 2025 🇺🇸</h3>
       <p class="news-date">2025-05-18</p>
     </div>
   </div>
@@ -158,6 +191,21 @@ design:
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.news-carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.news-carousel .news-img {
+  display: block;
+}
+
+.news-carousel-single .news-img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
 .news-text {
   padding: 12px 16px;
 }
@@ -303,26 +351,66 @@ design:
 
 <script>
 (function () {
-  const card = document.querySelector('.series-card');
-  if (!card) return;
+  const startSeriesCarousel = (carousel, imageSelector, delay = 0, interval = 4000) => {
+    if (carousel.dataset.carouselInitialized === 'true') return;
 
-  const carousels = card.querySelectorAll('.series-carousel');
-
-  carousels.forEach((carousel, i) => {
-    const imgs = carousel.querySelectorAll('.series-img');
+    const imgs = carousel.querySelectorAll(imageSelector);
     if (imgs.length <= 1) return;
 
-    let idx = 0;
-    const delay = i * 1500;   // 第二列延迟 1.5s
+    carousel.dataset.carouselInitialized = 'true';
 
-    setTimeout(() => {
-      setInterval(() => {
+    let idx = 0;
+    const advance = () => {
+      const current = imgs[idx];
+      const duration = Number(current.dataset.duration || interval);
+
+      carousel._carouselTimer = window.setTimeout(() => {
         imgs[idx].classList.remove('active');
         idx = (idx + 1) % imgs.length;
         imgs[idx].classList.add('active');
-      }, 4000);
+        advance();
+      }, duration);
+    };
+
+    carousel._carouselTimer = window.setTimeout(() => {
+      advance();
     }, delay);
+  };
+
+  const startNewsCarousel = (carousel) => {
+    if (carousel.dataset.carouselInitialized === 'true') return;
+
+    const imageList = (carousel.dataset.images || '').split('|').filter(Boolean);
+    if (imageList.length <= 1) return;
+
+    const altList = (carousel.dataset.alts || '').split('|');
+    const durationList = (carousel.dataset.durations || '').split('|').map((v) => Number(v) || 3500);
+    const img = carousel.querySelector('.news-img');
+    if (!img) return;
+
+    carousel.dataset.carouselInitialized = 'true';
+
+    let idx = 0;
+    const advance = () => {
+      const duration = durationList[idx] || 3500;
+
+      carousel._carouselTimer = window.setTimeout(() => {
+        idx = (idx + 1) % imageList.length;
+        img.src = imageList[idx];
+        img.alt = altList[idx] || img.alt;
+        advance();
+      }, duration);
+    };
+
+    advance();
+  };
+
+  document.querySelectorAll('.series-card .series-carousel').forEach((carousel, i) => {
+    startSeriesCarousel(carousel, '.series-img', i * 1500, 4000);
+  });
+
+  document.querySelectorAll('.news-carousel').forEach((carousel) => {
+    startNewsCarousel(carousel);
   });
 })();
 </script>
-

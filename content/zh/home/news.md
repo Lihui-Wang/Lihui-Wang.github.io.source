@@ -7,6 +7,33 @@ design:
   columns: "1"
 ---
 
+<div class="news-cards">
+
+  <div class="news-card">
+      <img src="/media/zhenni_xuyining_graduate1.jpg" alt="zhenni_xuyining_graduate1" class="news-img">
+      <div class="news-text">
+        <h3>热烈庆祝王珍妮博士和徐怡宁硕士毕业 🎉</h3>
+        <p class="news-date">2026-05-15</p>
+      </div>
+  </div>
+
+  <div class="news-card">
+      <div class="news-carousel news-carousel-single"
+           data-images="/media/zhenniwang-OutstandingGraduate1.jpg|/media/zhenniwang-OutstandingGraduate2.jpg"
+           data-alts="zhenniwang-OutstandingGraduate1|zhenniwang-OutstandingGraduate2"
+           data-durations="5000|3500">
+        <img src="/media/zhenniwang-OutstandingGraduate1.jpg" alt="zhenniwang-OutstandingGraduate1" class="news-img">
+      </div>
+      <div class="news-text">
+        <h3>祝贺王珍妮同学获得2026届上海交通大学优秀毕业生荣誉称号 🏆</h3>
+        <p class="news-date">2026-05-15</p>
+      </div>
+  </div>
+
+</div>
+
+<div class="section-divider"></div>
+
 <div class="news-card series-card">
   <div class="series-media">
   <!-- 主图轮播 -->
@@ -87,7 +114,7 @@ design:
   <div class="news-card">
     <img src="/media/lab-retreat.jpg" alt="lab-retreat" class="news-img">
     <div class="news-text">
-      <h3>2025年实验室在浙江舟山团建</h3>
+      <h3>2025年实验室在浙江舟山团建 🏖️</h3>
       <p class="news-date">2025-08-22</p>
     </div>
   </div>
@@ -104,7 +131,7 @@ design:
   <div class="news-card">
     <img src="/media/zhenni_vss.jpg" alt="zhenni_vss" class="news-img">
     <div class="news-text">
-      <h3>王珍妮在2025年VSS年会上进行海报展示</h3>
+      <h3>王珍妮在2025年VSS年会上进行海报展示 🇺🇸</h3>
       <p class="news-date">2025-05-18</p>
     </div>
   </div>
@@ -135,6 +162,21 @@ design:
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.news-carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.news-carousel .news-img {
+  display: block;
+}
+
+.news-carousel-single .news-img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
 .news-text {
   padding: 12px 16px;
 }
@@ -267,26 +309,66 @@ design:
 
 <script>
 (function () {
-  const card = document.querySelector('.series-card');
-  if (!card) return;
+  const startSeriesCarousel = (carousel, imageSelector, delay = 0, interval = 4000) => {
+    if (carousel.dataset.carouselInitialized === 'true') return;
 
-  const carousels = card.querySelectorAll('.series-carousel');
-
-  carousels.forEach((carousel, i) => {
-    const imgs = carousel.querySelectorAll('.series-img');
+    const imgs = carousel.querySelectorAll(imageSelector);
     if (imgs.length <= 1) return;
 
-    let idx = 0;
-    const delay = i * 1500;   // 第二列延迟 1.5s
+    carousel.dataset.carouselInitialized = 'true';
 
-    setTimeout(() => {
-      setInterval(() => {
+    let idx = 0;
+    const advance = () => {
+      const current = imgs[idx];
+      const duration = Number(current.dataset.duration || interval);
+
+      carousel._carouselTimer = window.setTimeout(() => {
         imgs[idx].classList.remove('active');
         idx = (idx + 1) % imgs.length;
         imgs[idx].classList.add('active');
-      }, 4000);
+        advance();
+      }, duration);
+    };
+
+    carousel._carouselTimer = window.setTimeout(() => {
+      advance();
     }, delay);
+  };
+
+  const startNewsCarousel = (carousel) => {
+    if (carousel.dataset.carouselInitialized === 'true') return;
+
+    const imageList = (carousel.dataset.images || '').split('|').filter(Boolean);
+    if (imageList.length <= 1) return;
+
+    const altList = (carousel.dataset.alts || '').split('|');
+    const durationList = (carousel.dataset.durations || '').split('|').map((v) => Number(v) || 3500);
+    const img = carousel.querySelector('.news-img');
+    if (!img) return;
+
+    carousel.dataset.carouselInitialized = 'true';
+
+    let idx = 0;
+    const advance = () => {
+      const duration = durationList[idx] || 3500;
+
+      carousel._carouselTimer = window.setTimeout(() => {
+        idx = (idx + 1) % imageList.length;
+        img.src = imageList[idx];
+        img.alt = altList[idx] || img.alt;
+        advance();
+      }, duration);
+    };
+
+    advance();
+  };
+
+  document.querySelectorAll('.series-card .series-carousel').forEach((carousel, i) => {
+    startSeriesCarousel(carousel, '.series-img', i * 1500, 4000);
+  });
+
+  document.querySelectorAll('.news-carousel').forEach((carousel) => {
+    startNewsCarousel(carousel);
   });
 })();
 </script>
-
