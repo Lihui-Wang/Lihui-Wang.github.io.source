@@ -1,8 +1,8 @@
 ---
 # Display name
 title: Bowen Ma
-user_groups: ["Undergraduate Student"]
-weight: 4
+user_groups: ["Master’s Student"]
+weight: 2
 # Is this the primary user of the site?
 superuser: false
 
@@ -74,4 +74,4 @@ organizations:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I’m currently an undergraduate in the Department of Psychology at East China Normal University and will formally join the lab to pursue a Master’s degree in September 2026. My research interests focus on atypical patterns of facial emotion recognition in individuals with schizophrenia, including response accuracy and eye movement patterns. I aim to translate these theoretical findings into applications for clinical assessment and diagnostic support.
+I received my bachelor's degree in Psychology from East China Normal University. My current research focuses on atypical patterns of facial emotion recognition in individuals with schizophrenia, including response accuracy and eye movement patterns. I aim to translate these theoretical findings into applications for clinical assessment and diagnostic support.

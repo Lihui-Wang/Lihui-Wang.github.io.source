@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Meng Liu
-user_groups: ["Post-doc"]
+user_groups: ["Alumini"]
 # Is this the primary user of the site?
 superuser: false
 

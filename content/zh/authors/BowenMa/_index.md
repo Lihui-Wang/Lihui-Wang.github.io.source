@@ -1,8 +1,8 @@
 ---
 # Display name
 title: 马博雯
-user_groups: ["Undergraduate Student"]
-weight: 4
+user_groups: ["Master’s Student"]
+weight: 2
 # Is this the primary user of the site?
 superuser: false
 
@@ -74,4 +74,4 @@ organizations:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-我目前就读于华东师范大学心理学系，将在2026年9月正式加入课题组攻读硕士学位。我当前的研究兴趣聚焦于精神分裂症患者面孔情绪识别中的异常模式，包括其作答准确性、眼动模式等，并将理论发现应用于临床辅助诊断。
+我本科毕业于华东师范大学心理学系。我当前的研究兴趣聚焦于精神分裂症患者面孔情绪识别中的异常模式，包括其作答准确率及眼动模式等，并希望能将理论发现应用于临床辅助诊断中。

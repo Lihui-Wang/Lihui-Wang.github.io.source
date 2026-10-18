@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Yining Xu
-user_groups: ["Master’s Student"]
+user_groups: ["Alumini"]
 # Is this the primary user of the site?
 superuser: false
 
