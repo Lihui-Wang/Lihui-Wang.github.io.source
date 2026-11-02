@@ -14,6 +14,14 @@ design:
   
 
   <div class="news-card">
+      <img src="/media/proj_avatar.jpg" alt="avatar" class="news-img">
+      <div class="news-text">
+        <h3>Congratulations to Tingjuntao Ni, Yixue Wang, and Liuyi Du on winning Second Prize at the 2026 National Psychology and Behavior Online Experiment Competition with their “Emotion Avatar” project. 🏆 </h3>
+        <p class="news-date">2026-11-02</p>
+      </div>
+  </div>
+  
+  <div class="news-card">
       <img src="/media/zhenni_xuyining_graduate1.jpg" alt="zhenni_xuyining_graduate1" class="news-img">
       <div class="news-text">
         <h3>Congratulations to Dr. Zhenni Wang and Yining Xu on their graduation. 🎉 </h3>

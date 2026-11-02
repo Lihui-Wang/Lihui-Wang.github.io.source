@@ -10,6 +10,14 @@ design:
 <div class="news-cards">
 
   <div class="news-card">
+      <img src="/media/proj_avatar.jpg" alt="avatar" class="news-img">
+      <div class="news-text">
+        <h3>祝贺倪婷珺陶、王逸雪和杜柳仪的“情绪化身”项目在2026年第四届全国大学生心理与行为在线实验精英赛中获得二等奖 🏆 </h3>
+        <p class="news-date">2026-11-02</p>
+      </div>
+  </div>
+  
+  <div class="news-card">
       <img src="/media/zhenni_xuyining_graduate1.jpg" alt="zhenni_xuyining_graduate1" class="news-img">
       <div class="news-text">
         <h3>热烈庆祝王珍妮博士和徐怡宁硕士毕业 🎉</h3>
